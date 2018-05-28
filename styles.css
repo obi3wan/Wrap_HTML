@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('fonts/PlayfairDisplay-Bold');
+    src: url('fonts/PlayfairDisplay-Bold')
+
+}
+
+
+#shadow-Text {
+    text-shadow: 7px 7px 7px #22252a;
+}
+
+#shadow-Text2 {
+    text-shadow: 7px 7px 7px #22252a;
+}
+
+.display-2 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.bg-secondary {
+    background-color: #f8f9fa !important;
+}
+
+body {
+    background-color: #f8f9fa !important;
+}
+
+#circle {
+    width: 300px;
+    height: 400px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.absoluteAbout {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+#aboutMe {
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    vertical-align: text-bottom;
+}
+
+#expSec {
+    height: 400px;
+    width: 300px;
+    background-color: sandybrown;
+    position: relative;
+}
+
+.textExp {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+}
+
+.absoluteExp {
+    position: absolute;
+    top: 120px;
+    right: 50px;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.roundedCorners {
+    border-radius: 25px;
+    background: #2aa5c4;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.absoluteWork {
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+#formDiv {
+    position: relative;
+    height: 600px;
+    display: inline;
+    
+}
+
+#contactH1 {
+    position: absolute;
+    top: 100px;
+    left: 125px;
+    font-weight: 800;
+}
+
+#contactForm {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 600px;
+}
+
+input {
+    width: 100%;
+}
+
+.btn.btn-primary {
+    background color: red;
+    align: right;
+}
