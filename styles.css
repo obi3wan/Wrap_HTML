@@ -4,7 +4,51 @@
     src: url('fonts/PlayfairDisplay-Bold')
 
 }
+picture {
+    margin: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
 
+picture div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+}
+
+picture div image {
+    width: 100%;
+    height: auto;
+
+}
+picture hover {
+    animation-direction: alternate;
+}
+@media screen and (max-width: 400px) {
+    header div{
+        margin: 0;
+    }
+    header {
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+.navbarText {
+    float: left;
+}
 
 #shadow-Text {
     text-shadow: 7px 7px 7px #22252a;
@@ -26,11 +70,12 @@
 
 body {
     background-color: #f8f9fa !important;
+    font-family: 'PlayfairDisplay';
 }
 
 #circle {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     background: red;
     border-radius: 50%;
     position: relative;
@@ -52,8 +97,8 @@ body {
 }
 
 #expSec {
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
     background-color: sandybrown;
     position: relative;
 }
@@ -76,8 +121,8 @@ body {
     border-radius: 25px;
     background: #2aa5c4;
     padding: 20px;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
 }
 
 .absoluteWork {
@@ -87,9 +132,13 @@ body {
     font-size: 65px;
     font-weight: 800;
 }
+.row {
+    background-color: lightgray;
+}
 
 #formDiv {
-    position: relative;
+    position: center;
+    top-margin: 400px;
     height: 600px;
     display: inline;
     
@@ -97,9 +146,11 @@ body {
 
 #contactH1 {
     position: absolute;
+    
     top: 100px;
     left: 125px;
     font-weight: 800;
+    font-size: 4em;
 }
 
 #contactForm {
@@ -114,6 +165,6 @@ input {
 }
 
 .btn.btn-primary {
-    color: red;
-    align: right;
+    background-color: red;
+    float: right;
 }
