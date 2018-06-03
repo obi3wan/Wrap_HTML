@@ -4,6 +4,8 @@
     font-weight: bold;
 }
 
+.container {}
+
 .logo-container {
     border: 4px black;
     border-top-style: solid;
@@ -31,8 +33,9 @@
     text-decoration: red underline;
 }
 
-.row {
+.row-1 {
     margin-bottom: -115px;
+    margin-left: 5em;
 }
 
 .experience {
@@ -73,7 +76,7 @@
 
 #intro-box {
     position: relative;
-    left: 20em;
+    left: 15em;
     top: -12em;
 }
 
@@ -146,7 +149,6 @@ body {
 }
 
 .pictures {
-    width: 100%;
     margin-bottom: 3%;
     /* text-align: center;
     position: relative;
@@ -179,33 +181,99 @@ body {
 
 /* form css */
 
-#formDiv {
-    position: center;
-    top-margin: 400px;
-    height: 600px;
-    display: inline;
+.formHeader {
+    font-size: 5rem;
+    margin-right: 0%;
+    margin-left: 1em;
+    color: #22252a;
 }
 
-#contactH1 {
-    position: absolute;
-    top: 100px;
-    left: 125px;
-    font-weight: 800;
-    font-size: 4em;
-}
-
-#contactForm {
-    position: absolute;
-    left: 400px;
-    top: 200px;
-    width: 600px;
-}
-
-input {
-    width: 100%;
-}
-
-.btn.btn-primary {
-    background-color: red;
+.formSmallerHeader {
+    font-size: 100%;
+    color:lightslategray;
     float: right;
 }
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.staticPosition {
+    float: left;
+}
+
+.alignRight {
+    align-items: right;
+}
+
+.largeBoldText {
+    font-size: 150%;
+}
+
+.activeItem {
+    color: black;
+    font-size: 150%;
+    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 red;
+}
+
+.noBottomMargin {
+    margin-bottom: .5px;
+}
+
+.largeHeight {
+    height: 10rem;
+}
+
+.smallTopMargin {
+    margin-top: 1rem;
+}
+
+.mediumBottomMargin {
+    margin-bottom: 3rem;
+}
+
+.orangeColor {
+    background-color: tomato;
+}
+
+.largeWhiteText {
+    color: white;
+    font-size: 2rem;
+}
+
+.largeButton {
+    width: 8rem;
+    height: 3rem;
+    margin-bottom: 100px;
+}
+
+.grayBorder {
+    border: 1px solid lightgray;
+}
+
+.roundedEdges {
+    border-radius: 3px;
+}
+
+.largeWidth {
+    width: 47rem;
+}
+
+.mediumHeight {
+    height: 3rem;
+}
+
+.smallLeftPadding {
+    padding-left: 1rem;
+}
+
+.smallTopPadding {
+    padding-top: 1rem;
+}
+
+.smallFooterPicture {
+    width: 4rem;
+    height: 4rem;
+}
+
