@@ -1,0 +1,133 @@
+@font-face {
+    font-family: playfairbold;
+    src: url(../fonts/playfairdisplay-bold.woff);
+    font-weight: bold;
+}
+
+
+.logo-container {
+    border: 4px black;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-radius: 5px;
+}
+
+.logo-container h1 {
+    color: black;
+    font-family: playfairbold;
+}
+
+.navi {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navi:hover {
+    color: black;
+    text-decoration: red underline overline;
+}
+
+#whitebox {
+    background-color: white;
+    border: 5px solid black;
+    width: 50%;
+}
+
+#greybox {
+    width: 50%;
+}
+
+#intro-box {
+    position: relative;
+    left: 25em;
+    top: -12em;
+}
+
+#intro-box h1 {
+    font-size: 5rem;
+    color: darkorange;
+    font-style: italic;
+    text-shadow: 3px 3px black;
+}
+
+#intro-box h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#line {
+    border-top: 5px solid black;
+}
+
+.bottom-line {
+    border-bottom: 4px solid black;
+}
+
+.bottom-line h3 {
+    display: inline;
+}
+
+.bottom-line img {
+    display: block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    background: url("images/icons/linkdarkgray.svg") bottom;
+}
+
+#swapper:hover {
+    background-position: 0 0;
+}
+
+.div-image-box {
+    position: relative;
+}
+
+.image-box {
+    display: block;
+    margin: 0 auto;
+    backface-visibility: hidden;
+    opacity: 1;
+    transition: .5s ease;
+} 
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+.div-image-box:hover .image-box{
+    opacity: 0.3;
+}
+
+.div-image-box:hover .middle {
+    opacity: 1;
+}
+
+.image-text {
+    color: black;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px white;
+}
+
+.talk-text {
+    color: white;
+    font-size: 5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px black;
+}
+
+.footer-text p {
+    font-size: 1.5em;
+    color: darkgrey;
+}

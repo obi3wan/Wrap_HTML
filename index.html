@@ -9,147 +9,194 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
-<link rel="stylesheet" href="/Users/admin/Desktop/CovalenceProjects/Wrap_/styles.css">
+    <link rel="stylesheet" href="/Users/admin/Desktop/CovalenceProjects/Wrap_/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <title>Resume</title>
+
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class='row'>
-            <div class='col-md-12 bg-secondary pl-0 pr-0' style="height: 600px">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border">
-                    <a class="navbar-brand" href="#aboutMe">About</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#exp">Experience
-                                    <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#work">Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                        <span class="navbar-text">
-                            <h1>Ubonrath Phimvong</h1>
-                        </span>
-                    </div>
-                </nav>
+    <div class="container">
 
-                <h1 class='col-md-3 display-4 font-weight-bold'>Resume</h1>
-
-                <div class='float-right' style='width: 300px'>
-                    <!-- Demo image -->
-<img class='mw-100 p-2' src="http://res.cloudinary.com/obi3wan/image/upload/v1523734763/ubyVacation.jpg">
+        <!--THIS STARTS THE NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light pb-5 pt-5">
+            <a class="navbar-brand" href="#">
+                <div class="logo-container">
+                    <img src="./images/up.jpg" width="80" height="80" class="d-inline-block align-top" alt="">
+                    <h1 class="d-inline-block align-top p-1 m-1">Ubonrath Phimvong</h1>
                 </div>
-                <br />
-                <br />
-                <br />
-                <span class='col-md-5 display-1 font-weight-bold text-warning d-flex justify-content-md-right align-right' id='shadow-Text'>Full Stack</span>
-                <span class='col-md-8 display-2 font-weight-bold text-warning d-flex justify-content-md-right align-right' id='shadow-Text2'>
-                    Developer
-                </span>
-                <br />
-            </div>
-        </div>
-        <hr />
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item navi" href="#about">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-item navi" href="#experience">Experience</a>
+                        <a class="nav-item navi" href="#work">Work</a>
+                        <a class="nav-item navi" href="#contact">Contact</a>
+                    </div>
+                </div>
+        </nav>
+
+
         <div class="row">
-            <br />
-            <div class="d-inline col-md-4" id='circle'>
-                <a name='aboutMe'>
-                    <p class='absoluteAbout'>About me.</p>
-                </a>
+
+            <div class="col-md-1"></div>
+            <div class="col-md-6 pb-5">
+                <img src="./images/profilePic.jpg" style="display:relative">
             </div>
-            <div class="d-inline col-md-8 float-right" id='aboutMe' style="height: 300px">
-                <p class="textExp">
-                </p>
+
+            <div id="intro-box">
+                <h1>Web Designer, Student,
+                    <br> and Technician.</h1>
+                <h3>Currently in Nashville, TN</h3>
             </div>
+
         </div>
-        <div class="row">
-            <div class="d-inline col-md-8" style='height: 300px'>
-                <p class="textExp"> Test test Test
 
-                </p>
+
+
+
+        <!--THIS STARTS THE JUMBOTRON SECTION-->
+        <a name="about">
+            <div class="row mt-2 pt-2">
+
+                <div class="col-sm-12">
+                    <div class="jumbotron jumbotron-fluid" style="height:500px;">
+                        <div class="container d-inline-flex justify-content-around">
+                            <div class="pt-5 pr-5" id="greybox">
+                                <h1 class="display-4 text-right">Hello</h1>
+                                <h3 class="text-right text-muted">Ubonrath Phimvong</h3>
+                                <h3 class="text-right text-muted">University of Phoenix</h3>
+                                <h3 class="text-right text-muted">Associates in Web Development</h3>
+                            </div>
+                            <div class="p-4 mr-5" id="whitebox">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                Ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="d-inline col-md-4 float-right" id='expSec' style='width: 600px'>
-                <a name='exp'>
-                    <p class='absoluteExp'>Experience</p>
-                </a>
 
+            <div style="width: 100px; height: 100px; background-color: transparent; float:left;">-My job at Nissan
+                <a href="/Users/admin/Desktop/CovalenceProjects/Wrap_/images/icons/linkdarkgray.svg" <hr>
             </div>
-        </div>
-        <div class="row">
-            <div class='d-inline col-md-4 roundedCorners'>
-                <a name='work'>
-                    <p class='absoluteWork'>My Work</p>
-                </a>
+            <div style="width: 100px; height: 100px; background-color: tranparent; float:right;">My life at Covalence
+                <hr>-</div>
+            <div style="width: 100%; height: 50%; background-color: red; clear:both">-</div>
+            <!--THIS BEGINS THE WORK HISTORY SECTION-->
+            <div class="experience">
+                <div class="row-2">
+                    <div class="job col-md-6">
+                        <h4 class="jobTitle">Yates of Nissan</h4>
+                        <h5 class="jobPosition">Technician</h5>
+                        <img class="grayLink" id="SCLink" src="./images/icons/linkgray.svg" alt="">
+                        <hr class="horizontalLine">
+                        <p style="text-align: left"> • Deliver bolts and screws to the production line
+                            <br> • Inscept bumper parts and help with production of Nissan cars</p>
+                    </div>
+                    <!-- <div class="col-md-2"></div> -->
+                    <div class="job col-md-6">
+                        <h4 class="jobTitle">Federal Mogul</h4>
+                        <h5 class="jobPosition">Outbound Technician</h5>
+                        <img class="grayLink" id="TMASLink" src="./images/icons/linkgray.svg" alt="">
+                        <hr class="horizontalLine">
+                        <p style="text-align: left"> • Using scanner to pick the orders for customer orders.
+                            <br> • Pick and pack items and set them for outbound delivery</p>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div class="job col-md-6">
+                        <h4 class="jobTitle">Asurion</h4>
+                        <h5 class="jobPosition">Returns Specialist</h5>
+                        <img class="grayLink" id="HSWALink" src="./images/icons/linkgray.svg" alt="">
+                        <hr class="horizontalLine">
+                        <p style="text-align: left"> • Inscept phones from customer returns and direct to correct department.
+                            <br> • Comment on the customers request and condition of the phone</p>
+                    </div>
+                    <!-- <div class="col-md-1"></div> -->
+                    <div class="job col-md-6">
+                        <h4 class="jobTitle">Pelco</h4>
+                        <h5 class="jobPosition">Soldering, Tester, and Technician</h5>
+                        <img class="grayLink" id="ZaxLink" src="./images/icons/linkgray.svg" alt="">
+                        <hr class="horizontalLine">
+                        <p style="text-align: left"> • Soldered electric components to motherboard.
+                            <br> • Test and troubleshoot the full component</p>
+                    </div>
+                </div>
             </div>
-            <div class="d-inline col-md-8" style='height: 300px'>
-                <p class="textExp"> Test test Test
-                </p>
+
+            <div class="pictures">
+                <div class="hoverLayer"></div>
+                <div class="row-12">
+                    <img class="picture col-md-3" id="wishPic" src="./images/building.jpg" alt="wish.com">
+                    <img class="picture col-md-4" id="covalencePic" src="./images/work2.jpg" alt="covalence.com">
+                    <img class="picture col-md-4" id="facebookPic" src="./images/chip.jpg" alt="facebook.com">
+                </div>
+                <div class="row-12">
+                    <img class="picture col-md-3" id="etsyPic" src="./images/chip2.jpg" alt="etsy.com">
+                    <img class="picture col-md-4" id="instaPic" src="./images/cloud.jpg" alt="instagram.com">
+                    <img class="picture col-md-4" id="snapPic" src="./images/world.jpg" alt="snapchat.com">
+                </div>
             </div>
-        </div>
-    </br>
-</br>
-<div container = "link">
 
 
-
-
-    
-</div>
-
-       <picture>
-         <div><img class="card-img-top" src="./images/building.jpg" alt="Card image cap"></div>
-        <div><img class="card-img-top" src="./images/work2.jpg" alt="Card image cap"> </div>
-        <div><img class="card-img-top" src="./images/chip.jpg" alt="Card image cap"></div>
-            <div><img class="card-img-top" src="./images/chip2.jpg" alt="Card image cap"></div>
-            <div><img class="card-img-top" src="./images/cloud.jpg" alt="Card image cap"></div>
-            <div><img class="card-img-top" src="./images/work.jpg" alt="Card image cap"></div>
-    
-            <div><img class="card-img-top" src="./images/work3.jpg" alt="Card image cap"></div>
-            <div><img class="card-img-top" src="./images/world.jpg" alt="Card image cap"></div>
-            <div><img class="card-img-top" src="./images/work2.jpg" alt="Card image"></div>
-        </picture>
-        <div class="rows">
-            <div class="col-md-12" id='formDiv'>
-                <a name='contact'>
-                    <h1 id="contactH1">Let's Talk</h1>
-                </a>
-                <br />
-                <br />
-                <br />
-                <form id='contactForm'>
-                    Name:
-                    <br>
-                    <input type="text" name="name" placeholder="Jon Doe">
-                    <br> Email Address:
-                    <br>
-                    <input type="text" name="mail" placeholder="JonDoe@email.com">
-                    <br /> Message:
-                    <br />
-                    <textarea name="message" rows="6" cols="72"></textarea>
-                    <br />
-                    <button type="submit" class="btn btn-primary">SEND</button>
-                </form>
-
-        
+            <div class="row mt-1 pt-1">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <form>
+                        <div class="form-group">
+                            <input type="name" class="form-control bg-light" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
             
-
-
-
+                        <div class="form-group">
+                            <input type="email" class="form-control bg-light" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+            
+                        <div class="form-group">
+                            <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                        </div>
+                    </form>
+                </div>
             </div>
-
-        
-        </div>
+            <div class="row">
+                <div class="col-sm-9"></div>
+                <button type="button" class="btn btn-danger btn-lg">Send</button>
+            </div>
+            
+            
+            <!--THIS STARTS THE FOOTER SECTION-->
+            <div class="row mt-5 pt-5 pb-5" id="line">
+            
+                <div class="col-sm-3"></div>
+            
+                <div class="col-sm-1">
+                    <img src="images/icons/dribble.svg" width="40px" height="40px">
+                </div>
+                <div class="col-sm-3">
+                    <h4 style="font-style:italic;">THANKS FOR VISITING!</h4>
+                </div>
+                <div class="col-sm-1">
+                    <img src="images/icons/instagram.svg" width="40px" height="40px">
+                </div>
+            
+                <div class="col-sm-3"></div>
+            
+            </div>
     </div>
+    
+
 
 
     <!-- Optional JavaScript -->
