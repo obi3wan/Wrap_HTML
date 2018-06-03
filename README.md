@@ -15,4 +15,4 @@ Covalence
     * Make the link icons display as indicated and make them link to the employer's web page (or some other page if N/A)
   * The image tiles can be whichever images you like and can link to past projects on the web or to your favorite web sites.
   * The form will not actually do anything
-  * Note: The navbar items are links to named anchors on the page, not to other pages; you will just have one web page.
+  * Note: The navbar items are links to named anchors on the page, not to other pages; you will just have one web page.# Wrap_HTML
