@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="/Users/admin/Desktop/CovalenceProjects/Wrap_/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+   
     <title>Resume</title>
 
 </head>
@@ -47,11 +47,11 @@
 
             <div class="col-md-2"></div>
             <div class="col-md-4 pb-6">
-                <img src="./images/profilePic.jpg" style="display:relative">
+                <img src="./images/profilePic.jpg" style="display:relative, padding-top: 10em" >
             </div>
 
             <div id="intro-box">
-                <h1>Web Designer, Student,
+                <h1>Web Designer, <br>Student,
                     <br> and Technician.</h1>
                 <h3>Currently in Nashville, TN</h3>
             </div>
@@ -59,7 +59,7 @@
         </div>
 
 
-
+</div>
 
         <!--THIS STARTS THE JUMBOTRON SECTION-->
         <a name="about">
@@ -90,12 +90,13 @@
             </div>
 
             <div style="width: 100px; height: 100px; background-color: transparent; float:left;">-My job at Nissan
-                <a href="/Users/admin/Desktop/CovalenceProjects/Wrap_/images/icons/linkdarkgray.svg" <hr>
+                <a href="/Users/admin/Desktop/CovalenceProjects/Wrap_/images/icons/linkdarkgray.svg" ></a>
+                <hr>
             </div>
             <div style="width: 100px; height: 100px; background-color: tranparent; float:right;">My life at Covalence
                 <hr>-</div>
             <div style="width: 100%; height: 50%; background-color: red; clear:both">-</div>
-            
+
             <!--THIS BEGINS THE WORK HISTORY SECTION-->
             <div class="experience">
                 <div class="row">
@@ -103,7 +104,7 @@
                         <h4 class="jobTitle">Yates of Nissan</h4>
                         <h5 class="jobPosition">Technician</h5>
                         <img class="grayLink" id="NissanLink" src="./images/icons/linkgray.svg" alt="">
-                        <hr class="horizontalLine">
+                        <hr class="horizontalLine" id="line">
                         <p style="text-align: left"> • Deliver bolts and screws to the production line
                             <br> • Inscept bumper parts and help with production of Nissan cars</p>
                     </div>
@@ -112,7 +113,7 @@
                         <h4 class="jobTitle">Federal Mogul</h4>
                         <h5 class="jobPosition">Outbound Technician</h5>
                         <img class="grayLink" id="FedMogulLink" src="./images/icons/linkgray.svg" alt="">
-                        <hr class="horizontalLine">
+                        <hr class="horizontalLine" id="line">
                         <p style="text-align: left"> • Using scanner to pick the orders for customer orders.
                             <br> • Pick and pack items and set them for outbound delivery</p>
                     </div>
@@ -123,7 +124,7 @@
                         <h4 class="jobTitle">Asurion</h4>
                         <h5 class="jobPosition">Returns Specialist</h5>
                         <img class="grayLink" id="AsurionLink" src="./images/icons/linkgray.svg" alt="">
-                        <hr class="horizontalLine">
+                        <hr class="horizontalLine" id="line">
                         <p style="text-align: left"> • Inscept phones from customer returns and direct to correct department.
                             <br> • Comment on the customers request and condition of the phone</p>
                     </div>
@@ -132,7 +133,7 @@
                         <h4 class="jobTitle">Pelco</h4>
                         <h5 class="jobPosition">Soldering, Tester, and Technician</h5>
                         <img class="grayLink" id="PelcoLink" src="./images/icons/linkgray.svg" alt="">
-                        <hr class="horizontalLine">
+                        <hr class="horizontalLine" id="line">
                         <p style="text-align: left"> • Soldered electric components to motherboard.
                             <br> • Test and troubleshoot the full component</p>
                     </div>
@@ -140,94 +141,121 @@
             </div>
 
             <div class="pictures">
-                <div class="hoverOver"</div>
-                <div class="row">
-                    <img class="picture col-md-4" id="buildingPic" src="./images/building.jpg" alt="#.com">
-                    <img class="picture col-md-3" id="work2Pic" src="./images/work2.jpg" alt="#.com">
-                    <img class="picture col-md-4" id="chipPic" src="./images/chip.jpg" alt="#.com">
-                </div>
-                <div class="row">
-                    <img class="picture col-md-4" id="chip2Pic" src="./images/chip2.jpg" alt="#.com">
-                    <img class="picture col-md-3" id="cloudPic" src="./images/cloud.jpg" alt="#.com">
-                    <img class="picture col-md-4" id="worldPic" src="./images/world.jpg" alt="#.com">
+<ul class="thumbnail-list">
+    <li class="thumbnail-item">
+        <a href="www.nissan.com">
+            <img class="thumbnail-image" src="./images/chip2.jpg" alt="#">
+            <span class="thumbnail-title"></span>
+        </a>
+    </li>
+    <li class="thumbnail-item">
+        <a href="www.kellyservices.com">
+            <img class="thumbnail-image" src="./images/cloud.jpg" alt="#">
+            <span class="thumbnail-title"></span>
+        </a>
+    </li>
+    <li class="thumbnail-item">
+        <a href="www.asurion.com    ">
+            <img class="thumbnail-image" src="./images/world.jpg" alt="#">
+            <span class="thumbnail-title"></span>
+        </a>
+    </li>
+
+    <li class="thumbnail-item">
+        <a href="#">
+<img class="thumbnail-image" src="./images/work2.jpg" alt="#">
+            <span class="thumbnail-title"></span>
+        </a>
+    </li>
+    <li class="thumbnail-item">
+        <a href="#">
+<img class="thumbnail-image" src="./images/work3.jpg" alt="#">
+            <span class="thumbnail-title"></span>
+        </a>
+    </li>
+    <li class="thumbnail-item">
+        <a href="#">
+<img class="thumbnail-image" src="./images/chip.jpg" alt="#">
+            <span class="thumbnail-title"></span>
+        </a>
+    </li>
+    </ul>
+              
+</div>
+                <form>
+                    <div class="row">
+                        <h1 class="formHeader col-md-5" style="margin-top: auto;">Let's talk</h1>
+                        <div class="col-md-2"></div>
+                        <h3 class="formSmallerHeader col-md-4" style="margin-top: auto;">Let's work together
+                            <br> ubyphimvong99@gmail.com</h3>
+                    </div>
+                    <div class="form-group row noBottomMargin">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <label for="name" class="col-form-label"></label>
+                            <!-- <textarea name="name" id="name" cols="88" rows="2" placeholder="Name"></textarea> -->
+                            <input class="lightGrayBackground largeWidth mediumHeight smallLeftPadding roundedEdges grayBorder" type="text" class="form-control"
+                                id="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group row noBottomMargin">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <label for="email" class="col-form-label"></label>
+                            <!-- <textarea name="email" id="email" cols="88" rows="2" placeholder="Email"></textarea> -->
+                            <input class="lightGrayBackground largeWidth mediumHeight smallLeftPadding roundedEdges grayBorder" type="email" class="form-control"
+                                id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row noBottomMargin">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <label for="message" class="col-form-label"></label>
+                            <textarea class="grayBorder roundedEdges lightGrayBackground largeWidth smallLeftPadding smallTopPadding" name="message"
+                                id="message" cols="89" rows="10" placeholder="Message"></textarea>
+                            <!-- <input type="text" class="form-control largeHeight" id="message" placeholder="Message"> -->
+                        </div>
+                    </div>
+                    <div class="form-group row noBottomMargin">
+                        <div class="col-md-8"></div>
+                        <div class="col-md-3 smallTopMargin">
+                            <button type="submit" class="btn orangeColor largeWhiteText largeButton">Send</button>
+                        </div>
+                    </div>
+                </form>
+
+
+                <!--THIS STARTS THE FOOTER SECTION-->
+                <div class="row mt-5 pt-5 pb-5" id="line">
+
+                    <div class="col-sm-3"></div>
+
+                    <div class="col-sm-1">
+                        <img src="images/icons/dribble.svg" width="40px" height="40px">
+                    </div>
+                    <div class="col-sm-3">
+                        <h4 style="font-style:italic;">THANKS FOR VISITING!</h4>
+                    </div>
+                    <div class="col-sm-1">
+                        <img src="images/icons/instagram.svg" width="40px" height="40px">
+                    </div>
+
+                    <div class="col-sm-3"></div>
+
                 </div>
             </div>
 
 
-        <form>
-            <div class="row">
-                <h1 class="formHeader col-md-5" style="margin-top: auto;">Let's talk</h1>
-                <div class="col-md-2"></div>
-                <h3 class="formSmallerHeader col-md-4" style="margin-top: auto;">Let's work together
-                    <br> ubyphimvong99@gmail.com</h3>
-            </div>
-            <div class="form-group row noBottomMargin">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <label for="name" class="col-form-label"></label>
-                    <!-- <textarea name="name" id="name" cols="88" rows="2" placeholder="Name"></textarea> -->
-                    <input class="lightGrayBackground largeWidth mediumHeight smallLeftPadding roundedEdges grayBorder" type="text" class="form-control"
-                        id="name" placeholder="Name">
-                </div>
-            </div>
-            <div class="form-group row noBottomMargin">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <label for="email" class="col-form-label"></label>
-                    <!-- <textarea name="email" id="email" cols="88" rows="2" placeholder="Email"></textarea> -->
-                    <input class="lightGrayBackground largeWidth mediumHeight smallLeftPadding roundedEdges grayBorder" type="email" class="form-control"
-                        id="email" placeholder="Email">
-                </div>
-            </div>
-            <div class="form-group row noBottomMargin">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <label for="message" class="col-form-label"></label>
-                    <textarea class="grayBorder roundedEdges lightGrayBackground largeWidth smallLeftPadding smallTopPadding" name="message"
-                        id="message" cols="89" rows="10" placeholder="Message"></textarea>
-                    <!-- <input type="text" class="form-control largeHeight" id="message" placeholder="Message"> -->
-                </div>
-            </div>
-            <div class="form-group row noBottomMargin">
-                <div class="col-md-8"></div>
-                <div class="col-md-3 smallTopMargin">
-                    <button type="submit" class="btn orangeColor largeWhiteText largeButton">Send</button>
-                </div>
-            </div>
-        </form>
-            
-            
-            <!--THIS STARTS THE FOOTER SECTION-->
-            <div class="row mt-5 pt-5 pb-5" id="line">
-            
-                <div class="col-sm-3"></div>
-            
-                <div class="col-sm-1">
-                    <img src="images/icons/dribble.svg" width="40px" height="40px">
-                </div>
-                <div class="col-sm-3">
-                    <h4 style="font-style:italic;">THANKS FOR VISITING!</h4>
-                </div>
-                <div class="col-sm-1">
-                    <img src="images/icons/instagram.svg" width="40px" height="40px">
-                </div>
-            
-                <div class="col-sm-3"></div>
-            
-            </div>
-    </div>
-    
 
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
