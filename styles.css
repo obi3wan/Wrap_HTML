@@ -27,7 +27,7 @@
 
     color:red;
     font-family: 'PlayfairDisplay700';
-=
+
 }
 
 .navi {
@@ -46,16 +46,19 @@
     text-decoration: red underline;
 }
 
+    
+}
+
 .row-1 {
     margin-bottom: -115px;
-    margin-left: 9em;
+    margin-left: 5em;
     padding-top: 5.5em;
 }
 
 .experience {
     
     height: auto;
-    margin: 5em 50px;
+    margin: 5em 100px;
 }
 
 .job {
@@ -108,8 +111,13 @@
 
 #line {
     border-top: 5px solid black;
+    
 }
-
+#line2 {
+    border-top: 5px solid black;
+    margin-left: 125px;
+    margin-right: 125px;
+}
 .bottom-line {
     border-bottom: 4px solid black;
 }
@@ -127,7 +135,7 @@
 }
 
 .jumbotron {
-    background-color: rgb(182, 182, 182);
+    background-color: lightgray);
     font-size: 15px;
 }
 
@@ -152,7 +160,7 @@
 body {
     background-color: #f8f9fa !important;
     font-family: 'PlayfairDisplay700';
-    margin: 0px;
+ 
 }
 
 form {
@@ -224,7 +232,9 @@ form {
     font-size: 5rem;
     margin-right: 0%;
     margin-left: 1em;
+    margin-bottom: 100px;
     color: #22252a;
+    
 }
 
 .formSmallerHeader {
@@ -259,6 +269,7 @@ form {
 
 .noBottomMargin {
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .largeHeight {
@@ -290,6 +301,7 @@ form {
 
 .grayBorder {
     border: 1px solid lightgray;
+    background-color: lightgray;
 }
 
 .roundedEdges {
