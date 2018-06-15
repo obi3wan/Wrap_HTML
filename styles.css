@@ -9,9 +9,18 @@
     font-style: normal;
 }
 
-.container {}
+body {
+    background-color: #f8f9fa !important;
+    font-family: 'PlayfairDisplay700';
+}
+
+form {
+    margin-top: 100px;
+}
+
 
 .logo-container {
+    
     border: 4px black;
     border-top-style: solid;
     border-right-style: solid;
@@ -22,9 +31,8 @@
 }
 
 .logo-container h1 {
+    background-image: url("./images/world.jpg");
     margin-top: 50%;
-
-
     color:red;
     font-family: 'PlayfairDisplay700';
 
@@ -43,15 +51,15 @@
 }
 .navi:hover {
     color: black;
-    text-decoration: red underline;
+    border-bottom: 4px solid red;
+    text-decoration: none;
 }
 
     
-}
 
 .row-1 {
     margin-bottom: -115px;
-    margin-left: 5em;
+    margin-left: 20em;
     padding-top: 5.5em;
 }
 
@@ -86,10 +94,19 @@
 
 .grayLink {
     text-align: right;
-    height: 20px;
+    height: 30px;
     position: absolute;
     left: 95%;
     top: 20px;
+}
+.grayLink:hover {
+    display: block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    background: url("images/icons/linkdarkgray.svg") bottom;
+    cursor: pointer;
+    
 }
 
 #intro-box {
@@ -115,27 +132,13 @@
 }
 #line2 {
     border-top: 5px solid black;
-    margin-left: 125px;
+    margin-left: 225px;
     margin-right: 125px;
 }
-.bottom-line {
-    border-bottom: 4px solid black;
-}
 
-.bottom-line h3 {
-    display: inline;
-}
-
-.bottom-line img {
-    display: block;
-    float: right;
-    height: 40px;
-    width: 40px;
-    background: url("images/icons/linkdarkgray.svg") bottom;
-}
 
 .jumbotron {
-    background-color: lightgray);
+    background-color: lightgray;
     font-size: 15px;
 }
 
@@ -155,16 +158,6 @@
 
 .bg-secondary {
     background-color: #f8f9fa !important;
-}
-
-body {
-    background-color: #f8f9fa !important;
-    font-family: 'PlayfairDisplay700';
- 
-}
-
-form {
-    margin-top: 100px;
 }
 
 #whitebox {
@@ -232,7 +225,7 @@ form {
     font-size: 5rem;
     margin-right: 0%;
     margin-left: 1em;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
     color: #22252a;
     
 }
